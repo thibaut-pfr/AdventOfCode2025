@@ -27,7 +27,7 @@ def countNrOfZeros(start, input):
     #print("Angle after : " + str(start))
     return start, nrOfZeros
 
-with open("day1_part1_input.txt") as f:
+with open("day1_input.txt") as f:
     lockAngle = 50
     zerosCount = 0
     for line in f.readlines():

@@ -25,7 +25,7 @@ def FindBiggestInLine(s, bestValues=[0]*12, j=0):
     return FindBiggestInLine(s[1:], bestValues=bestValues, j=j)
 
 
-f = open("day3_part1_input.txt")
+f = open("day3_input.txt")
 total = 0
 for line in f.readlines():
     line = line.strip()

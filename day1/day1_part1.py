@@ -1,4 +1,4 @@
-with open("day1_part1_input.txt") as f:
+with open("day1_input.txt") as f:
     status = 50
     total = 0
     for line in f.readlines():

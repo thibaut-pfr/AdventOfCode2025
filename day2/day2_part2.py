@@ -20,7 +20,7 @@ def checkValid(n):
 #for i in range(38593856,38593863):
 #   print(str(i) + " is valid ? : " + str(checkValid(i)))
 
-f = open("day2_part1_input.txt")
+f = open("day2_input.txt")
 input = f.readline()
 
 invalid = []

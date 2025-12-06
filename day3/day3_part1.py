@@ -11,7 +11,7 @@ def FindBiggestInLine(s, bestTens=float("-inf"), bestUnits=float("-inf")):
         bestUnits = head
     return FindBiggestInLine(s[1:], bestTens, bestUnits)
 
-f = open("day3_part1_input.txt")
+f = open("day3_input.txt")
 total = 0
 test = ["987654321111111",
 "811111111111119",
